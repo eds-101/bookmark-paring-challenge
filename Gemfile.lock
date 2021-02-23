@@ -15,10 +15,15 @@ GEM
     diff-lcs (1.4.4)
     eventmachine (1.2.7)
     mini_mime (1.0.2)
+    mini_portile2 (2.5.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
+    pg (1.2.3)
     public_suffix (4.0.6)
     racc (1.5.2)
     rack (2.2.3)
@@ -57,10 +62,12 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
+  ruby
   x86_64-darwin-19
 
 DEPENDENCIES
   capybara
+  pg
   rack
   rspec
   shotgun
