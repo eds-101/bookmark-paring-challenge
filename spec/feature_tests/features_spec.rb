@@ -1,6 +1,6 @@
 feature "Home page" do
   scenario "displays the bookmark link" do
-    visit '/home'
+    visit '/'
     expect(page).to have_content "view bookmarks"
   end
 end 

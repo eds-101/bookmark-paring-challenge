@@ -3,7 +3,7 @@ require './lib/bookmarks'
 class Bookmark_App < Sinatra::Base
   enable :sessions
 
-  get '/home' do
+  get '/' do
     # @bookmarks = Bookmarks.new
     erb :home
   end
